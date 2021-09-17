@@ -1,0 +1,48 @@
+ /*Estilos da página INDEX*/
+
+ body {
+    font-family: 'Poppins', sans-serif;
+ }
+
+ #menu li {
+     display: inline;
+     padding: 20px;
+ }
+
+ #menu li a {
+    text-decoration: none;
+    color: #4D4D4D;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#menu li a:hover {
+    color: #7821eb;
+}
+
+ h1 {
+    font-size: 30x;
+    color: #4D4D4D;
+    text-align: center;
+ }
+
+ p {
+     font-size: 20px;
+     color: #4D4D4D;
+     font-weight: bold;
+     padding-left: 15%;
+     padding-right: 5%;
+}
+
+.imagem {
+    padding-right: 5%;
+}
+
+
+ .container {
+     display: flex;
+     flex-flow: row;
+     justify-content: center;
+     align-items: center;
+ }
+
