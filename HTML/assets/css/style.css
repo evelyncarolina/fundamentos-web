@@ -4,6 +4,10 @@
     font-family: 'Poppins', sans-serif;
  }
 
+ nav {
+     background-color: #8230ee;
+ }
+
  #menu li {
      display: inline;
      padding: 20px;
@@ -11,33 +15,33 @@
 
  #menu li a {
     text-decoration: none;
-    color: #4D4D4D;
+    color: #f3f3f3;
     font-size: 30px;
     font-weight: bold;
 }
 
 #menu li a:hover {
-    color: #7821eb;
+    color: #604781;
 }
 
- h1 {
-    font-size: 30x;
+ .titulos {
+    font-size: 40x;
     color: #4D4D4D;
     text-align: center;
  }
 
  p {
-     font-size: 20px;
+     font-size: 18px;
      color: #4D4D4D;
      font-weight: bold;
      padding-left: 15%;
      padding-right: 5%;
+     text-align: justify;
 }
 
 .imagem {
     padding-right: 5%;
 }
-
 
  .container {
      display: flex;
@@ -46,3 +50,24 @@
      align-items: center;
  }
 
+ .video {
+     padding-bottom: 30px;
+ }
+
+ .tamanho {
+     width: 20%;
+     height: 20%;
+     padding: 20px 10px 20px 10px;
+ }
+
+ .copy {
+    font-size: 14px;
+    text-align: center;
+    color: #4D4D4D;
+    font-weight: bold;
+ }
+
+ /*Pagina COntato*/
+ .alinhamentoForms {
+     padding-left: 30px;
+ }
